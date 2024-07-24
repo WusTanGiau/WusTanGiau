@@ -2,7 +2,7 @@
 package main
 
 import (
-    "wusthanhdieu"
+    "wustangiau"
     "github.com/WusTanGiau"
 )
 
