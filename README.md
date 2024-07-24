@@ -3,7 +3,7 @@ package main
 
 import (
     "wusthanhdieu"
-    "github.com/wusthanhdieu"
+    "github.com/WusTanGiau"
 )
 
 type Github struct {
@@ -17,14 +17,14 @@ type Github struct {
 }
 
 func (g *Github) Init() {
-    g.username = "thanhdieutv"
+    g.username = "TanGiau"
     g.contacts = map[string]string{
-        "Discord": "thanhdieutv#2278",
-        "Facebook": "WusThanhDieu",
+        "Discord": "WusTanGiau",
+        "Facebook": "wustangiau",
     }
-    g.alises = []string{"thanhdieudev", "Tdv"}
+    g.alises = []string{"TanGiauDev", "TGV"}
     g.location = "localhost, vietnamese"
-    g.age = "22+"
+    g.age = "24+"
     g.occupation = "Freelance Developer"
     g.operating_system = "Windows, Arch, Linux, VPS"
 }
